@@ -3,3 +3,4 @@ devops.txt
 .docker
 Dockerfile
 docker-compose.yml
+.env
