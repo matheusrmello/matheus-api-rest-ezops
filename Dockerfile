@@ -18,8 +18,8 @@ COPY --from=builder /server/node_modules ./node_modules
 
 COPY --from=builder /server/server/ ./server/
 
-ENV PORT=3000
+ENV PORT=4000
 
-EXPOSE 3000
+EXPOSE 4000
 
 CMD [ "node", "server/server.js" ]

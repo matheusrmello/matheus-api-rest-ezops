@@ -1,4 +1,4 @@
-create schema blog;
+CREATE SCHEMA IF NOT EXISTS blog;
 
 create table blog.post (
 	id serial primary key,
